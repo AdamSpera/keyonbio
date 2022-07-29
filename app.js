@@ -26,5 +26,3 @@ app.get('/', function (req, res) {
   console.log(`[/]: Get request received at '/'`);
   res.sendFile('public/index.html', { root: __dirname });
 })
-
-//test
