@@ -15,7 +15,7 @@
 }
 
 body {
-  background: url('./images/cas_bg.jpeg') no-repeat center center fixed;
+  background: url('../images/cas_bg.jpeg') no-repeat center center fixed;
   background-size: cover;
 }
 
