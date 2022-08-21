@@ -1,0 +1,158 @@
+@font-face {
+  font-family: bioSansBold;
+  src: url('fonts/bold.otf');
+}
+
+@font-face {
+  font-family: bioSans;
+  src: url('fonts/regular.otf');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url('./images/cas_bg.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+h2 {
+  font-family: bioSans;
+  font-size: 24px;
+  color: #fff;
+  margin: 10px 0px;
+}
+
+a {
+  font-family: bioSansBold;
+  color: #fff;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  width: 168px;
+  height: auto;
+}
+
+label {
+  font-family: bioSansBold;
+  color: #fff;
+  margin: 10px 0px;
+}
+
+input {
+  border: 1px solid #cbd6e2 !important;
+  border-radius: 4px;
+  height: 34px;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  font-size: 1em;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px rgba(0, 174, 255, 0.5);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+.form {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 10px 23px;
+  padding-bottom: 35px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.login {
+  width: 99%;
+  background-color: #A20824;
+  border: 0px solid #ed2127;
+  border-radius: 28px;
+  font-size: 0.8em;
+  padding: 10px 5px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 20px 0px;
+  font-family: bioSansBold;
+  transition: all 0.2s ease-in-out;
+}
+
+.login:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+.form a:last-of-type {
+  margin: 10px 0px;
+}
+
+@media (max-width: 768px) {
+  .form {
+    width: 85vw;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+.footer {
+  height: 75px;
+  padding: 10px;
+  text-align: center;
+  width: 100vw;
+  background-color: #56595C;
+  border-top: solid 5px #333;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.footer a:first-of-type {
+  flex: 7 1 100%;
+}
+
+.support {
+  font-family: bioSans;
+  color: #fff;
+  flex: 7 1 100%;
+}
+
+.policy {
+  font-family: bioSans;
+  color: #fff;
+  flex: 7 1 100%;
+}
+
+@media (max-width: 800px) {
+  .footer {
+      margin-top: 25px;
+  }
+}
