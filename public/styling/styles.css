@@ -1,11 +1,11 @@
 @font-face {
   font-family: bioSansBold;
-  src: url('fonts/bold.otf');
+  src: url('../fonts/bold.otf');
 }
 
 @font-face {
   font-family: bioSans;
-  src: url('fonts/regular.otf');
+  src: url('../fonts/regular.otf');
 }
 
 * {
