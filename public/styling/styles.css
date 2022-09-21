@@ -67,7 +67,7 @@ input:focus {
 }
 
 .form {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 10px 23px;
   padding-bottom: 35px;
@@ -92,7 +92,7 @@ input:focus {
 
 .login {
   width: 99%;
-  background-color: #A20824;
+  background-color: #a20824;
   border: 0px solid #ed2127;
   border-radius: 28px;
   font-size: 0.8em;
@@ -128,7 +128,7 @@ input:focus {
   padding: 10px;
   text-align: center;
   width: 100vw;
-  background-color: #56595C;
+  background-color: #56595c;
   border-top: solid 5px #333;
   align-self: flex-end;
   display: flex;
@@ -153,6 +153,7 @@ input:focus {
 
 @media (max-width: 800px) {
   .footer {
-      margin-top: 25px;
+    height: 110px;
+    padding: 8px;
   }
 }
