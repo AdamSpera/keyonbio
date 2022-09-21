@@ -33,7 +33,7 @@ app.post('/data', (req, res) => {
   req.on('end', function () {
     console.log(`[/data]: Post request received at '/data' (${body})`);
 
-    connection.query(`INSERT INTO ${process.env.DATABASE}.${process.env.TABLE} (email) VALUES (${body});`, function (error, result, field) {
+    connection.query(`INSERT INTO ${process.env.DATABASE}.${process.env.TABLE} (email) VALUES ('${body}');`, function (error, result, field) {
       if (!!error) {
         console.log('[/data]: There was an issue saving data'); console.log(error);
         res.send('Failed');
