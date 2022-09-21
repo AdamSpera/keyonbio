@@ -17,8 +17,10 @@ If you want to test the concept on your own, you can use teh following intructio
 - During the configuration proccess, be sure to accept any promts given by the installed softwares.
 _Note: If you intend to clone your project repository to another directory (not /ubuntu/home/) you can chnage the node service file by editing the RunProgram.sh file._
 5. Git clone https://github.com/AdamSpera/keyonbio.git
-6. Run ```sudo systemctl start nodeserver.service``` to start the runnign service.
+6. Run ```npm install express mysql dotenv```
+7. Run ```sudo systemctl start nodeserver.service``` to start the runnign service.
 
+_Node: To hook up a databse, create a .env file with the coorisponding database credentials._
 
 ## Contributions
 
